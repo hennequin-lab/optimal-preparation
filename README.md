@@ -1,5 +1,5 @@
 # optimal-preparation
-Optimal anticipatory controlas a theory of motor preparation: a thalamo-cortical circuit model
+Optimal anticipatory control as a theory of motor preparation: a thalamo-cortical circuit model
 
 ## Dependencies
 1. [OCaml](https://ocaml.org) 4.10.0
