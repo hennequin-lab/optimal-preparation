@@ -1,0 +1,5 @@
+(executables
+ (names setup dynamic_setup reaches vanilla dynamic naive)
+ (libraries owl lib cmdargs owl-opt-lbfgs ppx-owl-opt base)
+ (preprocess
+  (pps ppx-owl-opt)))

@@ -1,0 +1,15 @@
+(copy_files# biomechanics/*.{ml,mli})
+
+(library
+ (name lib)
+ (libraries
+  owl
+  cmdargs
+  lbfgs
+  owl-ode
+  owl-ode-sundials
+  owl-opt-lbfgs
+  base
+  stdio)
+ (preprocess
+  (pps ppx-owl-opt)))
